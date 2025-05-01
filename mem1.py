@@ -1,4 +1,3 @@
-```python
 from PIL import Image, ImageDraw, ImageFont
 
 print('Генератор мемов запущен!')
@@ -52,7 +51,3 @@ draw.text(((width - text_wigth) / 2, (height - text_hight - 30)), bottom_text, f
 
 image.show() # Открываем изображение для просмотра
 image.save("new_meme.jpg") # Сохраняем изображение в файл
-```
-
----
-Answer from Perplexity: pplx.ai/share
